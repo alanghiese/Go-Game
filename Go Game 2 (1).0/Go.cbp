@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Go Game 2.0" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Go" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-s" />
+					<Add library="freetype" />
+					<Add library="jpeg" />
+					<Add library="sfml-window-s-d" />
+					<Add library="opengl32" />
+					<Add library="gdi32" />
+					<Add library="sfml-audio-s-d" />
+					<Add library="openal32" />
+					<Add library="flac" />
+					<Add library="vorbisenc" />
+					<Add library="vorbisfile" />
+					<Add library="vorbis" />
+					<Add library="ogg" />
+					<Add library="sfml-network-s-d" />
+					<Add library="ws2_32" />
+					<Add library="sfml-system-s-d" />
+					<Add library="winmm" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Go" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-s" />
+					<Add library="freetype" />
+					<Add library="jpeg" />
+					<Add library="sfml-window-s" />
+					<Add library="opengl32" />
+					<Add library="gdi32" />
+					<Add library="sfml-audio-s" />
+					<Add library="openal32" />
+					<Add library="flac" />
+					<Add library="vorbisenc" />
+					<Add library="vorbisfile" />
+					<Add library="vorbis" />
+					<Add library="ogg" />
+					<Add library="sfml-network-s" />
+					<Add library="ws2_32" />
+					<Add library="sfml-system-s" />
+					<Add library="winmm" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-DSFML_STATIC" />
+			<Add directory="C:/SFML-2.4.1/include" />
+			<Add directory="C:/Users/Alan/Desktop/TP especial AYDA 2 - GO/Go/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/SFML-2.4.1/lib" />
+		</Linker>
+		<Unit filename="include/Cadena.h" />
+		<Unit filename="include/CajaDeFichas.h" />
+		<Unit filename="include/Ficha.h" />
+		<Unit filename="include/Heuristica.h" />
+		<Unit filename="include/Jugador.h" />
+		<Unit filename="include/Minimax.h" />
+		<Unit filename="include/Partida.h" />
+		<Unit filename="include/Reglas.h" />
+		<Unit filename="include/Tablero.h" />
+		<Unit filename="include/Utilidad.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Cadena.cpp" />
+		<Unit filename="src/CajaDeFichas.cpp" />
+		<Unit filename="src/Ficha.cpp" />
+		<Unit filename="src/Heuristica.cpp" />
+		<Unit filename="src/Jugador.cpp" />
+		<Unit filename="src/Minimax.cpp" />
+		<Unit filename="src/Partida.cpp" />
+		<Unit filename="src/Reglas.cpp" />
+		<Unit filename="src/Tablero.cpp" />
+		<Unit filename="src/Utilidad.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

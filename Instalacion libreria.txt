@@ -1,0 +1,1 @@
+Para que el programa compile se debe copiar la carpeta SFML-2.4.1 en C://
